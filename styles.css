@@ -1,3 +1,35 @@
+:root {
+  --bs-primary: #458ff6;
+  --bs-primary-rgb: 69, 143, 246;
+}
+
+.hero-btn {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-hover-bg: #5c9ffc;
+  --bs-btn-active-bg: #196bde;
+  border-radius: 100px;
+  padding: 16px 32px;
+  font-size: 18px;
+  border: none;
+}
+
 body {
   font-family: "Mulish", sans-serif;
+}
+
+.heading-text {
+  font-size: 48px;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.font-21px {
+  font-size: 21px;
+}
+
+.body-text {
+  font-weight: 300;
+  color: #7d7987;
 }
