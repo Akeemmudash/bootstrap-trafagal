@@ -13,12 +13,17 @@
   border: none;
 }
 
+.container {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
 body {
   font-family: "Mulish", sans-serif;
 }
 
 .heading-text {
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .font-18px {
@@ -32,4 +37,10 @@ body {
 .body-text {
   font-weight: 300;
   color: #7d7987;
+}
+
+@media (min-width: 576px) {
+  .heading-text {
+    font-size: 48px;
+  }
 }
